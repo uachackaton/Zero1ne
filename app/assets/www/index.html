@@ -17,6 +17,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
 <script type="text/javascript" src="js/jquery.cslider.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
 	<script type="text/javascript">
 			$(function() {
 
@@ -70,11 +71,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="slider"><!-- start slider -->
 				<div id="da-slider" class="da-slider"><!-- start slider -->
 						<div class="da-slide">
-							<h2>Elige tu Presidente</h2>
-							<p>No votes en blanco</span> </p>
+							<h2>INTRODUCCION</h2>
+							<p> <span class="hide">Aqui va la introduccion</span> </p>
 						</div>
 						<div class="da-slide">
-							<h2>healthy recipes</h2>
+							<h2>CARACTERISTICAS DEL VOTO</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <span class="hide">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span> </p>
 						</div>
 						<div class="da-slide">
@@ -93,7 +94,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div><!-- end slider -->
 			<div  class="grid_right">
 				<ul>
-					<li class="color1"><img src="" alt="" height="240"/></li>
+					<li class="color1"><img src="images/image1.fw.png" alt="" /></li>
 					<li class="color2"><img src="" alt="" height="240"/></li>
 				</ul>
 			</div>
@@ -127,19 +128,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 			<div class="grid1_of_list2"><!-- start grid1_of_list2 -->
-				<div class="grid1_of_list">
-					<img src="images/pic2.jpg" alt="" />
-					<h4>roasted chicken</h4>
+				<div class="grid1_of_list">					
+					<h4>Faltan</h4>
 				</div>
 				<ul class="list2">
-					<li><p>Kcal</p><span>230</span></li>
-					<li><p>prawns</p> <span>12%</span></li>
+					<li><span><script>
+						document.write((calcularFecha())+" Días");
+					</script></span></li>					
 					<div class="clear"></div>
 				</ul>
+				<div class="grid1_of_list3">					
+					<h4>Para las elecciones</h4>
+				</div>
 			</div><!-- end grid1_of_list2 -->
 		</div><!-- end grid1_of_2 -->
 
+		<!--Start Candidates Profiles-->
 
+		<div class="grid_of_2">
+			ole
+		</div>
+
+		<!--End Candidates Profiles-->
 
 		<!--Start votation puestation -->
 
@@ -152,9 +162,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h4>Puesto de Votación</h4>
 				</div>
 				<div class="contact_form">
-					<form method="post" action="contact-post.html">
+					<form action="http://wsr.registraduria.gov.co/servicios/censo.htm?n" method = "GET">
 						<span>Digite su No. de documento</span>
-						<input type="text" class="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hello@gmail.com';}">											
+						<input type="text" class="text" name="nCedula" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'hello@gmail.com';}">											
 						<div>
 							<input type="reset" value="Limpiar">
 							<input type="submit" value="Enviar">

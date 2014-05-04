@@ -241,8 +241,7 @@ body {
 	margin-top: 5%;
 }
 .slider{
-	background: url('../images/slider_bg.jpg') no-repeat bottom right #fff;
-	border-top: 8px solid rgb(255, 121, 121);
+	border-top: 8px solid rgb(204, 204, 204);
 	float: left;
 	width: 70%;
 	position: relative;
@@ -252,7 +251,7 @@ body {
 	position:absolute;
 	width: 0;
 	height: 0;
-	border:10px solid rgb(255, 121, 121);
+	border:10px solid rgb(204, 204, 204);
 	border-bottom: 0 solid rgba(0, 0, 0, 0)!important;
 	border-right: 10px solid rgba(0, 0, 0, 0)!important;
 	border-left: 10px solid rgba(0, 0, 0, 0)!important;
@@ -282,11 +281,11 @@ body {
 	margin-left: -10px;
 }
 .grid_right ul li.color2{
-	border-top: 8px solid rgb(115, 211, 51);
+	border-top: 8px solid rgb(255, 38, 38);
 	position: relative;
 }
 .grid_right ul li.color2:after{
-	border:10px solid rgb(115, 211, 51);
+	border:10px solid rgb(255, 38, 38);
 }
 .grid_right ul li img{
 	margin-bottom: -5px;
@@ -446,13 +445,30 @@ body {
 	text-transform: capitalize;
 	font-weight: 400;
 }
+
+.grid1_of_list3{
+	background: #71AF42;
+	text-align:center;
+	padding: : 20%;
+	border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0px 0px 8px 8px;
+	-o-border-radius: 0px 0px 8px 8px; 
+}
+.grid1_of_list3 h4{
+	font-size: 1.5em;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
 .list2{
 	background: #ffffff;
 	text-align:center;
-	border-radius: 0px 0px 8px 8px;
-	-webkit-border-radius: 0px 0px 8px 8px;
-	-moz-border-radius: 0px 0px 8px 8px;
-	-o-border-radius: 0px 0px 8px 8px;
+	border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-o-border-radius: 0px 0px 0px 0px;
 }
 .list2 li {
 	display:inline-block;
